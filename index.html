@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+
+</head>
+<body>
+   
+    <div class="calc-container">
+    <h2 id="heading">Calculator</h2>
+        <div class="calc-preview">
+            <input type="text" id="display" readonly>
+        </div>
+       
+        <div class="calc-btns" >
+            <button class="buttons" onclick="ClickToDisplay('9')">9</button>
+            <button class="buttons" onclick="ClickToDisplay('8')">8</button>
+            <button class="buttons" onclick="ClickToDisplay('7')">7</button>
+            <button class="buttons" id="clear" onclick="ClearDisplay()">C</button>
+            <button class="buttons" onclick="ClickToDisplay('6')">6</button>
+            <button class="buttons" onclick="ClickToDisplay('5')">5</button>
+            <button class="buttons" onclick="ClickToDisplay('4')">4</button>
+            <button class="buttons" onclick="ClickToDisplay('+')">+</button>
+            <button class="buttons" onclick="ClickToDisplay('3')">3</button>
+            <button class="buttons" onclick="ClickToDisplay('2')">2</button>
+            <button class="buttons" onclick="ClickToDisplay('1')">1</button>
+            <button class="buttons" onclick="ClickToDisplay('-')">-</button>
+            <button class="buttons" onclick="ClickToDisplay('0')">0</button>
+            <button class="buttons" onclick="Calculate()">=</button>
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
