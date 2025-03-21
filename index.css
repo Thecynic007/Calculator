@@ -38,6 +38,12 @@ body{
   border-radius: 40px;
   font-weight: bold;
 }
+
+#calculate{
+  border-radius: 10px;
+  border: solid;
+  width:170px;
+}
  
 #clear{
   color:red;
@@ -46,3 +52,4 @@ body{
 .buttons:hover{
   background-color:	#FFD700;
 }
+
